@@ -136,7 +136,7 @@ ol, ul {
     display: inline-block;
     height: 24px;
     list-style: outside none none;
-    padding: 15px 30px 11px;
+    padding: 15px 25px 11px;
     position: relative;
     text-align: center;   
 }
@@ -592,7 +592,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section 
 .footer-info .follow-me span {
     color: #fff;
     float: left;
-    line-height: 28px;
+    // line-height: 28px;
     padding-right: 42px;
 }
 
@@ -612,13 +612,12 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section 
 
 .fb a img {
     border: 0 none;
+    display: block;
 }
 
-.fb img {
-    height: auto;
-    max-width: 100%;
-    vertical-align: middle;
-}
+.fb a img:hover {
+    background: url("images/facebook_bl.png");
+}   
 
 .footer-info .copyright {
     color: #fff;
