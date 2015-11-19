@@ -1,6 +1,17 @@
-Rails.application.routes.draw do
+Lifestyle::Application.routes.draw do
 
   get 'home/index'
+  get 'home/about'
+  get 'home/callback'
+
+  get 'topics/clothes'
+  get 'topics/cosmetics'
+  get 'topics/travels'
+  get 'topics/lifestyle'
+
+  get 'posts/new'
+  get 'posts/edit'
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
