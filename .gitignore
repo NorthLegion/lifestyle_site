@@ -21,4 +21,8 @@ public/maintenance.html
 !public/images/
 public/images/*
 public/images/**/* 
+<<<<<<< HEAD
 !.gitkeep
+=======
+!.gitkeep
+>>>>>>> 692429afb4eed5691eb5023e8078ebcb22467e6c
